@@ -1,0 +1,25 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background-color: lightblue;
+    border: 2px solid;
+    border: 1px solid blue;
+    box-shadow: 5px 5px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+html {
+    background-color: #FFFFFF;
+}
+
+table {
+    padding: 0px;
+    color: black;
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}

@@ -1,0 +1,59 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Assignment 4</title>
+    <link href="assignment4.css" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <img src="Images Comp125/logocentennial.jpg" height="127px" width="430px" style="float:right">
+    </br>
+    <h1>Registration Form</h1>
+    </br>
+    <hr size="3" color="black">
+    <form id="Form"><strong>
+        <label class="fields">First Name: </label><input id="firstNameInput" placeholder="First Name" type="text" /></br>
+        </br>
+        <label class="fields">Last Name: </label><input id="lastNameInput" placeholder="Last Name" type="text" /></br>
+        </br>
+        <label class="fields">Address: </label><input id="addressInput" type="text" placeholder="Address" /></br>
+        </br>
+        <label class="fields">City: </label><input id="cityInput" type="text" placeholder="City" /></br>
+        </br>
+        <label class="fields"> Postal Code: </label><input id="postalCodeInput" type="text" placeholder="A0A0A0" /></br>
+        </br>
+        <label class="fields">Province:</label>
+        <select required>
+  		        <option selected="selected">AB</option>
+  		        <option>BC</option>
+                <option>MN</option>
+  		        <option>ON</option>
+                <option>QC</option>
+  		        <option>SK</option>
+ 	    </select></br>
+        </br>
+        <label class="fields">Age: </label><input type="number" id="age" placeholder="Age" min="18"></br>
+        </br>
+        <label class="fields">Password: </label><input type="password" id="passwordInput" placeholder="Password" /></br>
+        </br>
+        <label class="fields">Confirm Password: </label><input type="password" id="confirmPasswordInput" placeholder="Confirm Password" /></br>
+        </br>
+        <label class="fields">Email: </label><input id="emailInput" type="text" placeholder="email@url.com" /></br>
+        </br>
+        </br>
+        <input type="button" value="Submit Form" onclick="validateForm()">
+        <span style="width:25px;"></span>
+        <input type="button" value="Clear Form" onclick="clearForm()">
+        </strong>
+    </form>
+    <h5 style="float:right"><em>(Passwords must contain at least 6 characters, 1 upper-case, and 1 number.)</em></h5>
+    <h6>
+        Bruno Demore &nbsp;&nbsp;&nbsp;&nbsp; SN: 300.890.179 &nbsp;&nbsp;&nbsp;&nbsp; &copy; 2017
+    </h6>
+    <script src="assignment4.js"></script>
+</body>
+
+</html>

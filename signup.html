@@ -1,0 +1,24 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Assignment 4</title>
+    <link href="signup.css" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <form id="signupForm">
+        <label>User Name: </label><input id="userNameInput" type="text" required /></br>
+        <label>Email: </label><input id="emailInput" type="text" /></br>
+        <label>Password: </label><input type="password" id="passwordInput" required /></br>
+        <label>Confirm Password: </label><input type="password" id="confirmPasswordInput" required /></br>
+        </br>
+        <input type="button" value="Submit" onclick="validate()" /><span style="width:25px;"></span><input type="button" value="Clear" onclick="clearForm" />
+    </form>
+
+    <script src="signup.js" />
+</body>
+
+</html>

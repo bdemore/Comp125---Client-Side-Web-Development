@@ -1,0 +1,29 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Assignment 2</title>
+    <link href="assignment2.css" rel="stylesheet" type="text/css">
+    <style type="text/css"></style>
+</head>
+
+<body>
+    <h3>Create your table</h3>
+    <form id="table">
+        <p>Insert the number of rows:</p>
+        <label><input type="number" min="0" name="rows" id="row"/></label>
+        <br/>
+        <p>Now, insert the number of columns:</p>
+        <label><input type="number" min="0" name="cols" id="col"/></label>
+        <br/><br/>
+        <input type="button" value="Create the Table" onclick='Table();' />
+        <br/><br/>
+    </form>
+
+    <div id="gettable"></div>
+</body>
+
+<script src="assignment2.js"></script>
+
+</html>
